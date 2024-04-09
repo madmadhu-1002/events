@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import events from './EventData.jsx'
+
 import Event from './Event'; // Assuming Event component is in the same directory
 import './EventsList.css'; // Import the CSS file for the parent component
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

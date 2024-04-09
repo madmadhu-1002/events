@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import './RecommendedShows.css';
-import events from './EventData.jsx'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import EventCard from './EventCard'; // Assuming EventCard component is in the same directory

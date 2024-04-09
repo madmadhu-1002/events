@@ -83,7 +83,7 @@
   
   export default events;
 
-*/
+
 import axios from 'axios';
 
 // Define an async function to fetch events from the API
@@ -105,4 +105,4 @@ const events = await fetchEventsData();
 
 // Now you can use the events variable to access the fetched JSON data
 console.log(events); // Print the events data to the console
-export default events;
+export default events;*/
