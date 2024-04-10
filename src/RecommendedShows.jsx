@@ -8,6 +8,11 @@ import EventCard from './EventCard'; // Assuming EventCard component is in the s
 
 const RecommendedShows = () => {
   // Define an array of event objects with different details
+  const [events, setEvents] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [hasMorePages, setHasMorePages] = useState(true);
+
   const formatDate = (dateString) => {
     const options = { month: 'long', day: 'numeric', year: 'numeric' };
     const date = new Date(dateString);
